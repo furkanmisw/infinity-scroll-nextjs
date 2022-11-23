@@ -62,4 +62,3 @@ Home.getInitialProps = async () => {
   const json = await res.json();
   return { data: json };
 };
-
